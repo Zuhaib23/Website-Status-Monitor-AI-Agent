@@ -12,11 +12,9 @@ This workflow automates website uptime monitoring without any manual effort. It 
 
 ## 🔄 Workflow
 
-<img width="803" height="263" alt="image" src="https://github.com/user-attachments/assets/1ca6c78e-db34-4cdb-829d-161cda653b82" />
-...
+<img width="803" height="263" alt="n8n workflow diagram" src="https://github.com/user-attachments/assets/1ca6c78e-db34-4cdb-829d-161cda653b82" />
 
-
-
+```
 Schedule Trigger → HTTP Request → If (status check)
                                      ├── true  → Edit Fields → Gmail (Site is UP)
                                      └── false → Edit Fields → Gmail (Site is DOWN)
@@ -74,12 +72,12 @@ Schedule Trigger → HTTP Request → If (status check)
 **When the site is UP:**
 > Subject: ✅ Website Status: Online  
 > Body: Your website is up and running normally.
-> <img width="308" height="172" alt="image" src="https://github.com/user-attachments/assets/05c4ddcf-9a93-46de-ad7d-3a6fc5431b24" />
-
 
 **When the site is DOWN:**
 > Subject: ❌ Website Status: Down  
 > Body: Alert! Your website appears to be offline. Please check immediately.
+
+<img width="308" height="172" alt="Email alert preview" src="https://github.com/user-attachments/assets/05c4ddcf-9a93-46de-ad7d-3a6fc5431b24" />
 
 *(You can customize these messages inside the Edit Fields nodes.)*
 
@@ -119,7 +117,7 @@ Schedule Trigger → HTTP Request → If (status check)
 
 **Muhammad Zuhaib**  
 Computer Systems Engineering Student — Sukkur IBA University  
-GitHub: [@your-username](https://github.com/Zuhaib23)
+GitHub: [@Zuhaib23](https://github.com/Zuhaib23)
 
 ---
 
