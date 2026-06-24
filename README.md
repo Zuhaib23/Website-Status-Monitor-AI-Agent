@@ -14,6 +14,9 @@ This workflow automates website uptime monitoring without any manual effort. It 
 
 <img width="803" height="263" alt="image" src="https://github.com/user-attachments/assets/1ca6c78e-db34-4cdb-829d-161cda653b82" />
 ...
+
+
+
 Schedule Trigger → HTTP Request → If (status check)
                                      ├── true  → Edit Fields → Gmail (Site is UP)
                                      └── false → Edit Fields → Gmail (Site is DOWN)
