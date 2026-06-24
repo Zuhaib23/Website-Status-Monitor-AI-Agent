@@ -98,7 +98,7 @@ Schedule Trigger → HTTP Request → If (status check)
 ```
 ├── workflow.json       # n8n workflow export
 ├── README.md           # Project documentation
-└── screenshots/        # (optional) workflow screenshots
+
 ```
 
 ---
